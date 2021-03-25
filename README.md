@@ -1,5 +1,5 @@
 # Refactoring Views With Helpers Lab
-
+ 
 ## Objectives
 
 1. Review creating associated objects
@@ -17,7 +17,7 @@ When we display the song library to the user, we want to account for when no art
 ## Instructions
 
 The base models, controllers, views and other files have been provided. There are tests for the lab in the `spec` directory. You can run tests with the `rspec` command.
-
+ 
 1. Write the code for `#artist_name` and `#artist_name=` so that an `Artist` can be retrieved from, and associated with, a `Song` instance
 2. Write a helper method `#display_artist` in the appropriate `app/helpers` file to be called on in our views. The method's return value should take into consideration whether an artist is already associated with a song:
   - If an artist is already associated with the song, return a link to the artist's `show` page
